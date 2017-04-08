@@ -2,7 +2,7 @@
 
 Some of the test cases are:
 
-1. [1,2,3] [] = True
+1. [1,2,3] [ ] = True
 2. [1,2,3] [3] = True
 3. [1,2,3] [2,3] = True
 4. [[1,2,3],[4,5]] [5] = True
