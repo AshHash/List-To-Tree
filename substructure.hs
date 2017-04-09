@@ -93,7 +93,7 @@ isSubtreeFn t s f
 {-+------------------+--
 --+-Any data to tree-+--
 --+------------------+-}
-elemToTree a = toTree p 0 0 ""
+elemToTree a = Leaf p
  where p = show a
 
 
