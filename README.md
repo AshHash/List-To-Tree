@@ -6,7 +6,7 @@ Anyways, this peace of code have certain functions operating on list and trees.
 
 # Idea!
 The idea for this code was obtained, while doing a project on _program synthesis_.
-We required a function which can tell us whether a list is a _substructure_ of another or not and if it is, then get the associated set of _selectors_ to obtain it.
+We required a function which can tell us whether a list is a _substructure_ of another or not and if it is, then get the appropriate set of _selectors_ to obtain it.
 
 ## Substructure
 
@@ -27,4 +27,4 @@ Example:
 Here, ":" represents _cons_ constructor and "[ ]" represents _nil_ constructor of list data type.
 Now,
  Sub-structure of this lists are those lists which are part of this tree, and are tree by themselves, and those are:
- [1,2,3], [2,3], [3] and [ ], associated selectors would be _id_, _tail.id_, _tail.tail.id_ and _tail.tail.tail.id_ respectively.
+ [1,2,3], [2,3], [3] and [ ], and associated their selectors are ```id```, ```tail.id```, ```tail.tail.id``` and ```tail.tail.tail.id``` respectively.
