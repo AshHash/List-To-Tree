@@ -27,4 +27,4 @@ Example:
 Here, ":" represents _cons_ constructor and "[ ]" represents _nil_ constructor of list data type.
 Now,
  Sub-structure of this lists are those lists which are part of this tree, and are tree by themselves, and those are:
- [1,2,3], [2,3], [3] and [ ], and associated their selectors are ```id```, ```tail.id```, ```tail.tail.id``` and ```tail.tail.tail.id``` respectively.
+ [1,2,3], [2,3], [3] and [ ], and associated selectors are ```id```, ```tail.id```, ```tail.tail.id``` and ```tail.tail.tail.id``` respectively.
